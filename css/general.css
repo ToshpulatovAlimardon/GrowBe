@@ -84,3 +84,74 @@
     .busines-desc a {
         display: inline-block;
     }
+
+/* Quality */
+#quality {
+    padding: 100px 0;
+}
+    /* quality item */
+    .quality-item {
+        padding: 40px 30px 25px;
+    }
+    .quality-item.quality-center {
+        box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    }
+        .quality-item img {
+            width: 70px;
+            height: 70px;
+            margin-bottom: 25px;
+        }
+        .quality-item h3 {
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+            margin-bottom: 17px;
+        }
+        .quality-item p {
+            font-size: 1rem;
+            margin-bottom: 25px;
+        }
+        .quality-item a {
+            font-size: .68rem;
+            transition: all .3s ease;
+        }
+        .quality-item a:hover {
+            color: var(--color-orange);
+        }
+
+/* Choose */
+#choose {
+    background: var(--color-bgcolor);
+}
+    /* choose title */
+    .choose-title {
+        padding: 0 150px;
+    }
+    /* choose item */
+    .choose-content .choose-item {
+        background: #fff;
+        box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    }
+    .choose-content .choose-item:nth-child(2) {
+        margin: 0 30px;
+    }
+        .choose-content .choose-item .choose-desc {
+            background: #fff;
+            padding: 0 30px 50px;
+        }
+            .choose-content .choose-item img:not(a img) {
+                width: 100%;
+                height: 260px;
+            }
+            .choose-item .choose-desc h3 {
+                font-size: 1.5rem;
+                line-height: 1.75rem;
+                margin-top: 10px;
+                margin-bottom: 22px;
+            }
+            .choose-item .choose-desc p {
+                font-size: .93rem;
+                margin-bottom: 39px;
+            }
+            .choose-item .choose-desc a {
+                display: inline-block;
+            }
