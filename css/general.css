@@ -52,3 +52,35 @@
 .header-img img {
     width: 100%;
 }
+/* Ads */
+#ads {
+    padding: 96px 0;
+}
+    #ads img {
+        cursor: pointer;
+    }
+
+/* Business */
+#business {
+    background: var(--color-bgcolor);
+    background-image: url("../images/business/element.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+    /* business desc */
+    .busines-desc h2 {
+        font-size: 2.81rem;
+        line-height: 3.31rem;
+        margin-bottom: 20px;
+    }
+    .busines-desc p {
+        font-size: 1rem;
+        margin-bottom: 35px;
+    }
+    /* business img */
+    .business-img img {
+        width: 100%;
+    }
+    .busines-desc a {
+        display: inline-block;
+    }
