@@ -481,4 +481,9 @@
         color: #888;
         border-top: 1px solid #CCCCCC;
         padding: 19px 0;
+        transition: all .3s ease;
+    }
+    .footer-bottom h4:hover,
+    .footer-bottom h4:focus {
+        color: var(--color-orange);
     }
